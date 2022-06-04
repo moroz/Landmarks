@@ -14,6 +14,7 @@
 		F9F9037B284BBF2F005EDC32 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9037A284BBF2F005EDC32 /* LandmarksTests.swift */; };
 		F9F90385284BBF2F005EDC32 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F90384284BBF2F005EDC32 /* LandmarksUITests.swift */; };
 		F9F90387284BBF2F005EDC32 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F90386284BBF2F005EDC32 /* LandmarksUITestsLaunchTests.swift */; };
+		F9F90394284BC272005EDC32 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F90393284BC272005EDC32 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F9F90380284BBF2F005EDC32 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F90384284BBF2F005EDC32 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		F9F90386284BBF2F005EDC32 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9F90393284BC272005EDC32 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				F9F90369284BBF2D005EDC32 /* LandmarksApp.swift */,
 				F9F9036B284BBF2D005EDC32 /* ContentView.swift */,
 				F9F9036D284BBF2E005EDC32 /* Assets.xcassets */,
+				F9F90393284BC272005EDC32 /* CircleImage.swift */,
 				F9F9036F284BBF2E005EDC32 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -259,6 +262,7 @@
 			files = (
 				F9F9036C284BBF2D005EDC32 /* ContentView.swift in Sources */,
 				F9F9036A284BBF2D005EDC32 /* LandmarksApp.swift in Sources */,
+				F9F90394284BC272005EDC32 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
