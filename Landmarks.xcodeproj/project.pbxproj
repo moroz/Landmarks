@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7AC3C2B2852215600184489 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = C7AC3C2A2852215600184489 /* hikeData.json */; };
+		C7AC3C2D285221AE00184489 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC3C2C285221AE00184489 /* Hike.swift */; };
 		F9F9036A284BBF2D005EDC32 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F90369284BBF2D005EDC32 /* LandmarksApp.swift */; };
 		F9F9036C284BBF2D005EDC32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9036B284BBF2D005EDC32 /* ContentView.swift */; };
 		F9F9036E284BBF2E005EDC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F9036D284BBF2E005EDC32 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7AC3C2A2852215600184489 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		C7AC3C2C285221AE00184489 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		F9F90366284BBF2D005EDC32 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F90369284BBF2D005EDC32 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		F9F9036B284BBF2D005EDC32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 			children = (
 				F9F90399284C181A005EDC32 /* Landmark.swift */,
 				F9F9039B284C190A005EDC32 /* ModelData.swift */,
+				C7AC3C2C285221AE00184489 /* Hike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				F9F90397284C17F7005EDC32 /* landmarkData.json */,
+				C7AC3C2A2852215600184489 /* hikeData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AC3C2B2852215600184489 /* hikeData.json in Resources */,
 				F9F90371284BBF2E005EDC32 /* Preview Assets.xcassets in Resources */,
 				F9F9036E284BBF2E005EDC32 /* Assets.xcassets in Resources */,
 				F9F90398284C17F7005EDC32 /* landmarkData.json in Resources */,
@@ -306,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AC3C2D285221AE00184489 /* Hike.swift in Sources */,
 				F9F9036C284BBF2D005EDC32 /* ContentView.swift in Sources */,
 				F9F90396284BC3C3005EDC32 /* MapView.swift in Sources */,
 				F9F9036A284BBF2D005EDC32 /* LandmarksApp.swift in Sources */,
